@@ -6,6 +6,11 @@
 standard-app-packages
 insecure
 tinytest
-autopublish
-command-exec
-bootstrap-3
+less
+
+natestrauser:font-awesome
+nemo64:bootstrap
+
+clinical:nightwatch
+
+awatson1978:command-exec

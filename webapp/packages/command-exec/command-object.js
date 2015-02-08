@@ -6,10 +6,10 @@ SystemWrapper = {
 };
 
 Meteor.methods({
-  runCommand: function(){
+  runCommand: function(commandString){
     console.log('runCommand');
 
-    Npm.require('child_process').exec("ls -la", SystemWrapper.standardOut);
+    Npm.require('child_process').exec(commandString, SystemWrapper.standardOut);
     return true;
   }
 });

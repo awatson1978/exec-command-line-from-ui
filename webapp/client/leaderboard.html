@@ -1,0 +1,26 @@
+<head>
+  <title>Leaderboard</title>
+</head>
+
+<body>
+  <div id="mainLayout">
+    <main id="mainPanel">
+      {{> navbarHeader}}
+
+      <div class="container">
+        <h2>Run Something On the Command Line</h2>
+        <button id="runCommand" class="btn btn-info">
+          run command
+        </button>
+        {{#if buttonClicked}}
+        <hr>
+        <div class="alert alert-success">
+          go check your server's console log!  :)
+        </div>
+        {{/if}}
+      </div>
+
+      {{> navbarFooter}}
+    </main>
+  </div>
+</body>
